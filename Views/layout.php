@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    
     <?php echo $contenido;?>
 
 </body>
