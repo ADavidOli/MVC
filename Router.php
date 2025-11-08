@@ -5,8 +5,8 @@ namespace MVC;
 
 class Router{
     // cachamos las rutas get y post en un arreglo vacio.
-    public $rutaGet = [];
-    public $rutaPost =[];
+    public $rutasGet = [];
+    public  $rutasPost =[];
 
     // definimos funciones callback de estas rutas.
 

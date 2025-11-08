@@ -9,5 +9,7 @@ class PerfilController{
         $Router->render('/perfil/index',[
             'titulo' => 'MVC',
         ]);
+        
     }
+    
 }

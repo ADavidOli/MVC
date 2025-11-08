@@ -6,7 +6,7 @@ define('FUNCIONES_URL', __DIR__ . 'funciones.php');
 
 
 function incluirTemplate( string  $nombre, bool $inicio = false ) {
-    include TEMPLATES_URL . "/${nombre}.php"; 
+    include TEMPLATES_URL . "/{$nombre}.php"; 
 }
 
 function debuguear($variable) {
