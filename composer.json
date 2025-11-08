@@ -1,0 +1,19 @@
+{
+    "name": "dvid04/mi-mvc",
+    "description": "arquitectura MVC básica para entender el tipa de los archivos",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./Models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./Controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "ADavidOli",
+            "email": "angeldoliv85@gmail.com"
+        }
+    ],
+    "require": {}
+}
